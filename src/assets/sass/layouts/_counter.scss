@@ -1,0 +1,30 @@
+.counter-section{
+    background:hsl(var(--base)/0.2);;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    .counter-box{
+        box-shadow: 20px 20px 50px rgba(202, 202, 202, 0.5);
+        backdrop-filter: blur(5px);
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        padding: 20px;
+        .counter-icon{
+            i{
+                font-size: 32px;
+            }
+        }
+    }
+    
+}
+
+// @media only screen and (max-width: 1026px) {
+//     .bottombar-section {
+//       display: block !important;
+//     }
+  
+// }

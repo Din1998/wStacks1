@@ -1,0 +1,54 @@
+.header-area{
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 999;
+   box-shadow: 0 5px 5px rgba(0,0,0,.2);
+
+  .main-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0px 24px 0px;
+    transition: 0.6s;
+    .logo-box{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .ham__menu{
+      display: none;
+    }
+    .logo{
+        
+    }
+    .nav-link{
+      
+      display: flex;
+      gap: 20px;
+
+      li{
+        a{
+          font-size: 20px;
+          font-weight: 800;
+        }
+      }
+    
+    }
+  }
+}
+
+.header-sticky{
+  background: hsl(var(--base));
+}
+
+@media only screen and (max-width: 600px) {
+  .ham__menu {
+    display: block !important;
+  }
+  nav{
+    display: none;
+  }
+}
+
+      
