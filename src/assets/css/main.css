@@ -27,27 +27,31 @@
     --black-l: 0%;
     --black: var(--black-h) var(--black-s) var(--black-l);
     --heading-color: var(--black);
-    --body-color: 0 0% 27%;
+    --body-color: 0, 0%, 85%;
     --border-color: 0 0% 88%;
-    --body-background: 0 0% 100%;
-    --section-bg: 208 100% 97%;
+    --background: 213 100% 14%;
   /*================================ Border-radius ===============================*/
-    --border-radius: 15px;
-    --border-radius-sm: 5px;
+    --border-radius: 16px;
+    --border-radius-sm: 4px;
   /*================================ Box Shadow Start ===============================*/
     --header-box-shadow: 0px -1px 15px 3px hsl(var(--black) /.3);
     --mobile-box-shadow: 0px -1px 5px 0px hsl(var(--black) /.92);
-    __box-shadow: 0px 2px 15px hsl(var(--black)/0.05);
+    --box-shadow: 0px 2px 15px hsl(var(--black) /.05);
   /* ================================ Base Light Color =============================== */
     --base-light-h: 152;
     --base-light-s: 100%;
     --base-light-l: 50%;
     --base-light: var(--base-light-h) var(--base-light-s) var(--base-light-l);
+  /*========================= Base component Color =============================*/
+    --base-component-h: 213;
+    --base-component-s: 100%;
+    --base-component-l: 17%;
+    --base-component: var(--base-component-h) var( --base-component-s) var(--base-component-l);
   /*========================= Base Color =============================*/
-    --base-h: 55;
-    --base-s: 100%;
-    --base-l: 47%;
-    --base: var(--base-h) var(--base-s) var(--base-l);
+    --base-h: 300;
+    --base-s: 87%;
+    --base-l: 40%;
+    --base: var(--base-h) var( --base-s) var(--base-l);
   /*== Base Darken ==*/
     --base-d-100: var(--base-h) var(--base-s) calc(var(--base-l) - var(--base-l) * 0.1);
     --base-d-200: var(--base-h) var(--base-s) calc(var(--base-l) - var(--base-l) * 0.2);
@@ -1633,7 +1637,7 @@ body {
     font-family: var(--heading-font);
     color: hsl(var(--body-color));
     word-break: break-word;
-    background-color: hsl(var(--body-background));
+    background-color: hsl(var(--background));
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -3959,6 +3963,7 @@ select.form-control.form--control:has(option) ~ .form--label {
     right: 0;
     z-index: 999;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    background: hsl(var(--background));
 }
 
 .header-area .main-nav {
@@ -5331,7 +5336,7 @@ select.form-control.form--control:has(option) ~ .form--label {
     bottom: 0;
     right: 0;
     z-index: 999;
-    background: hsl(var(--base));
+    background: hsl(var(--background));
     box-shadow: 0 -4px 4px rgba(0, 0, 0, 0.2), 0 -1px 0 rgba(255, 255, 255, 0.2);
     display: flex;
     justify-content: space-around;
@@ -5342,7 +5347,7 @@ select.form-control.form--control:has(option) ~ .form--label {
 
 .bottombar-section .bottonAppBar .tapTo-top {
     position: absolute;
-    background-color: rgb(179, 179, 202);
+    background-color: hsl(var(--base));
     height: 50px;
     width: 50px;
     top: -34px;
@@ -5400,7 +5405,7 @@ select.form-control.form--control:has(option) ~ .form--label {
 
 .parallax .overlay {
     position: relative;
-    background-color: hsl(var(--base)/0.2);
+    background-color: hsl(var(--base));
     top: 0;
     left: 0;
     bottom: 0;
@@ -5414,9 +5419,8 @@ select.form-control.form--control:has(option) ~ .form--label {
     height: 380px;
     width: 100%;
     position: relative;
-    box-shadow: 20px 20px 50px rgba(202, 202, 202, 0.5);
     backdrop-filter: blur(5px);
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: hsl(var(--base-component));
     border-radius: 12px;
     display: flex;
     flex-direction: column;

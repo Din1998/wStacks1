@@ -20,7 +20,7 @@
 
     .overlay{
     position: relative;
-    background-color: hsl(var(--base)/.2);
+    background-color: hsl(var(--base));
     top: 0;
     left: 0;
     bottom: 0;
@@ -40,9 +40,9 @@
             height: 380px;
             width: 100%;
             position: relative;
-            box-shadow: 20px 20px 50px rgba(202, 202, 202, 0.5);
+
             backdrop-filter: blur(5px);
-            background-color: rgba(255, 255, 255, 0.1);
+            background-color:  hsl(var( --base-component));
             border-radius: 12px;
             display: flex;
             flex-direction: column;
