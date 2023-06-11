@@ -18,6 +18,74 @@
         opacity: 0.85;
         z-index: -1;
     }
+    .animate-container{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+       z-index: -1;
+        .img-1{
+            top: 20%;
+            left: 50%;
+        }
+        .img-2{
+            top: 30%;
+            left: 50%;
+        }
+        .img-3{
+            top: 40%;
+            left: 10%;
+        }
+        .img-4{
+            top: -40%;
+            left: 10%;
+        }
+        .img-5{
+            top: -30%;
+            left: 0%;
+        }
+        .img-6{
+            top: -10%;
+            left: -40%;
+        }
+        .img-7{
+            top: 10%;
+            left: -30%;
+        }
+        .img-8{
+            top: -10%;
+            left: -30%;
+        }
+        .img-9{
+            top: 30%;
+            left: -30%;
+        }
+        .img-10{
+            top: -30%;
+            left: -30%;
+        }
+        .img-11{
+            top: -20%;
+            left: -50%;
+        }
+        .img-12{
+            top: -30%;
+            right: 40%;
+        }
+        img{
+            position: relative;
+            width: 50px;
+            
+            object-fit: contain;
+        }
+    }
     .hero-content{
         h2{
             line-height: 1.5;
