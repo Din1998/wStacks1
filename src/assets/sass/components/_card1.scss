@@ -1,0 +1,53 @@
+.card_wraper{
+    .card_body{
+        height: 380px;
+        width: 100%;
+        position: relative;
+        backdrop-filter: blur(5px);
+        background-color:  hsl(var( --base-component));
+        border-radius: 8px;
+        overflow: hidden;
+       &:hover{
+        border: 1px solid hsl(var( --base));
+       }
+    }
+    .card-img{
+
+      height: 200px;
+        img{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+      }
+    }
+    .content{
+      padding: 16px;
+      text-align: left ;
+
+      .card-meta{
+        
+        .top{
+
+        }
+        .btm{
+          .sale{
+            background: hsl(var( --base));
+            border-radius: 8px;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p{
+              font-size: 16px;
+              text-align: center;
+              color: hsl(var( --dark));
+            }
+          }
+          width: 100%;
+          display: inline-flex;
+          justify-content: space-between;
+        }
+      }
+    }
+    
+  }

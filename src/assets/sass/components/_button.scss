@@ -315,37 +315,51 @@ button {
     }
 }
 
-
 // ============= Different Color Button End ==================
 
-// btn hover
-button{
+// main btn
+.base-btn{
     position: relative;
-
-  overflow: hidden;
-  transition: background 400ms;
-  color: #fff;
-  background-color: #6200ee;
-  padding: 1rem 2rem;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.5rem;
-  outline: 0;
-  border: 0;
-  border-radius: 0.25rem;
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3); /* black with 30% opacity */
-  cursor: pointer;
-  }
-  span.ripple {
-    position: absolute;
-    border-radius: 50%;
-    transform: scale(0);
-    animation: ripple 600ms linear;
-    background-color: rgba(255, 0, 0, 0.7);
-  }
-  
-  @keyframes ripple {
-    to {
-      transform: scale(4);
-      opacity: 0;
+    transition: background 400ms;
+    color: hsl(var(--base));
+    border: 1px solid hsl(var(--base)) !important;
+    border-radius: 8px;
+    padding: 11px 16px ;
+    font-size: 20px;
+    outline: 0;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3); /* black with 30% opacity */
+    cursor: pointer;
+  &:hover{
+        background-color: hsl(var(--base)/.09);
     }
   }
+// btn ripple
+  .ripple {
+    background-position: center;
+    transition: background 0.8s;
+  }
+  .ripple:hover {
+    background: hsl(var(--base)/.1) radial-gradient(circle, transparent 1%, hsl(var(--base)/.3) 1%) center/15000%;
+  }
+  .ripple:active {
+    background-color: hsl(var(--base)/.3);
+    background-size: 100%;
+    transition: background 0s;
+  }
+  
+
+// card btn
+  .card-actn__btn{
+    color: hsl(var(--base));
+    border: 1px solid hsl(var(--base)) !important;
+    border-radius: 8px;
+    padding: 8px 8px ;
+    font-size: 16px;
+    outline: 0;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3); /* black with 30% opacity */
+  cursor: pointer;
+  &:hover{
+        background-color: hsl(var(--base)/.09);
+    }
+  }
+ 

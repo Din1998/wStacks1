@@ -13,7 +13,7 @@
     --heading-three: clamp(1.25rem, .8vw + 1rem, 1.875rem); //Min: 20px - Max: 30px
     --heading-four: clamp(1.125rem, .5vw + 1rem, 1.5rem); //in: 18px - Max: 24px
     --heading-five: clamp(1.0625rem, .3vw + 1rem, 1.25rem); //in: 17px - Max: 20px
-    --heading-six: 1rem;
+    --heading-six: 1.2rem;
   
   /* ======================== Color Variables Start ===========================*/
      /*== White Color ==*/
@@ -31,7 +31,7 @@
     --black-l: 0%;
     --black: var(--black-h) var(--black-s) var(--black-l);
     
-    --heading-color: var(--black);
+    --heading-color: 0,0%,100%;
     --body-color: 0, 0%, 85%;
     --border-color: 0 0% 88%;
     --background: 213 100% 14%;
@@ -65,9 +65,9 @@
     --base-component: var(--base-component-h) var( --base-component-s) var(--base-component-l);
 
     /*========================= Base Color =============================*/
-    --base-h: 300;  
+    --base-h:  182;   
     --base-s: 87%;
-    --base-l: 40%;
+    --base-l: 45%;  
     --base: var(--base-h) var( --base-s) var(--base-l);
 
     /*== Base Darken ==*/

@@ -90,10 +90,10 @@ a{
     text-decoration: none;
     color: hsl(var(--body-color));
 }
-// // 
-// a:hover {
-//     color: hsl(var(--base));
-//   }
+
+a:hover {
+    color: hsl(var(--base));
+  }
 
 ul{
     margin: 0;

@@ -29,14 +29,15 @@
     font-weight: 500;
     outline: none;
     width: 100%;
-    padding: 14px 15px;
+    padding: 14px 44px;
     background-color: hsl(var(--base)/.1); 
-    border: 1px solid hsl(var(--white) / .1);
-    color: hsl(var(--dark)); 
+    border: 1px solid hsl(var(--base));
+    color: hsl(var(--base)) !important; 
     line-height: 1;
-    border-radius: 10px;
+    border-radius: 8px;
     &::placeholder {
-        color: hsl(var(--dark) / .6);
+
+        color: hsl(var(--base));
         font-size: 14px;
     }
     &:focus {

@@ -24,6 +24,9 @@
     
         <!-- Odometer -->
         <link rel="stylesheet" href="assets/css/odometer.css">
+
+        <!-- swiper -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 
@@ -32,8 +35,46 @@
 </head>
 <body>
     
+
+<!--==================== Preloader Start ====================-->      
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="loader">
+                <h5>wStacks</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!--==================== Preloader End ====================-->
+
 </body>
 </html>
+<div class="header-top">
+    <div class="container">
+        <div class="top-header-wrapper">    
+            <div class="top-contact">
+                <ul class="contact-list">
+                    <li class="contact-list__item"> <span class="contact-list__item-icon"><i class="fas fa-envelope"></i></span><a href="mailto:" class="contact-list__link"> info@wstacks.com</a></li>
+                </ul>
+            </div> 
+            <div class="top-button">
+                <ul class="login-registration-list d-flex flex-wrap justify-content-between align-items-center">
+                    <li class="login-registration-list__item"><span class="login-registration-list__icon"><i class="fas fa-user"></i></span><a href="login.html" class="login-registration-list__link"> Login</a></li>
+                    <li class="login-registration-list__item"><a href="registration.html" class="login-registration-list__link">Register</a></li>
+                </ul>
+                <div class="language-box">
+                    <select class="select">
+                        <option selected="">English</option>
+                        <option value="1">Bangla</option>
+                        <option value="2">French</option>
+                        <option value="3">Spenich</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!--========================== Header section Start ==========================-->
 <header class="header-area ">
     <div class="container" >
@@ -51,13 +92,13 @@
 
                 <nav>
                     <!-- ***** Menu Start ***** -->
-                    <ul class="nav-link">
+                    <!-- <ul class="nav-link">
                         <li><a href="#" class="active">Home</a></li>
                         <li class="headShake"><a href="#">Meetings</a></li>
                         <li><a href="#">Apply Now</a></li>
                         <li><a href="#">Courses</a></li> 
                         <li><a href="#">Contact Us</a></li>  
-                    </ul>        
+                    </ul>         -->
                    
                     <!---- ***** Menu End ***** -->
                 </nav>
@@ -90,67 +131,142 @@
 
 
 <!--========================== Sidebar mobile menu wrap End ==========================-->
+<!-- <div class="full-wh">
+   STAR ANIMATION 
+    <div class="bg-animation">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <div id="stars4"></div>
+    </div> / STAR ANIMATION 
+</div> -->
 
 
-
-
-
-<section class="service-section py-80">
-    <div class="container">
+<div class="stars">
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+  </div>
+<section class="hero py-120 hero-bg" style="background:url(https://script.viserlab.com/viserplace/assets/images/frontend/banner/631734090e9b71662465033.jpg)">
+    <div class="container" >
         <div class="row justify-content-center">
-            <div class="col-lg-10">
-                <div class="banner__content text-center">
-                    <span class="subtitle">// Our Service</span>
-                    <h2>
-                        Your Partner In Digital Success
-                        <span>Technology</span> Solutions
-                    </h2>
-                    <p class="section-heading__desc mb-30">Furthermore, SMM provides valuable insights into customer behavior and preferences. With analytics tools provided by social media platforms, businesses can take.</p>
-                </div>
+            <div class="col-xl-7 col-lg-8 text-center hero-content">
+                <h2>365 Digital products and elements in this platform</h2>
+                <p>wstacks@gmail.com</p>
             </div>
         </div>
-     
-            <div class="row pt-5 g-4 card_wraper" id="card_wraper">
-                <div class="col-lg-4 col-md-6">
-                    <div class="card_body">
-                        <div class="card-img">
-                            <img src="/assets/images/service/software.png" >
-                        </div>
-                        <div class="content">
-                            <h2>E-commerce Solutions</h2>
-                            <p>E-commerce is simply is design iomyi is text Lorem Ipsum is simply is our busi Lorem is Ipsum is</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="card_body">
-                        <div class="card-img">
-                            <img src="/assets/images/service/strategy.png" >
-                        </div>
-                        <div class="content ">
-                            <h2>Planning Department</h2>
-                            <p>Planning Ipsum is simply is design iomyi is text Lorem Ipsum is simply is our busi Lorem is Ipsum is</p>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="card_body">
-                        <div class="card-img">
-                            <img src="/assets/images/service/growth.png" >
-                        </div>
-                        <div class="content">
-                            <h2>Business Solutions</h2>
-                            <p>Business Ipsum is simply is design iomyi is text Lorem Ipsum is simply is our busi Lorem is Ipsum is</p>
-                        </div>
-
-                    </div>
-                </div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-xl-7 col-lg-8 text-center">
+                <form class="search-bar">
+                    <i class="las la-search icon"></i>
+                    <input class="form--control" id="search" name="search" type="text" placeholder="e.g. php script">
+                    <button class="base-btn search-btn" type="submit">Search</button>
+                </form>
             </div>
-      
+        </div>
     </div>
-   
 </section>
+<section class="feature-section py-80" >
+    <div class="container" >
+        <div class="row justify-content-center">
+            <div class="col-xl-7 col-lg-8 text-center hero-content">
+                <h2>Our Featured Products</h2>
+                <p>consectetur adipisicing elit. Sed, iste maiores dolore iusto in vero unde amet, ipsam laborum eveniet, veritatis dolor incidunt blanditiis voluptatibus.</p>
+            </div>
+        </div>
+        <div class="row pt-5 g-4 card_wraper" id="card_wraper">
+           
+                    <div class="col-lg-3 col-md-4">
+                        <div class="card_body">
+                            <div class="card-img">
+                                <img src="https://upworks.monster/demo/downgrade/public/storage/product/tue-dec-13-2022-1122-am27225.jpg" >
+                            </div>
+                            <div class="content">
+                                <div>
+                                    <p>Themes</p>
+                                    <h5><a href="https://www.facebook.com/" target="_blank">Cididunt ut labore et</a></h5>
+                                </div>
+                                <div class="card-meta">
+                                    <div class="price">
+                                        <h5 class="product-price mb-3">$119</h5>
+                                    </div>
+                                    <div class="btm">
+                                        <div class="sale">
+                                            <p><i class="fa-solid fa-cart-shopping"></i> 7 sales</p>
+                                        </div>
+                                        <div class="cart">
+                                            <button class="card-actn__btn"><i class="fa-solid fa-cart-shopping"></i> Purchase</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+           
+           
+            
+
+
+            <!-- btn -->
+        
+            <div class="mt-5 text-center">
+                <button class="base-btn ripple">View More</button>
+            </div>
+        </div>
+        
+    </div>  
+</section>
+
+
+
+
 <section class="bottombar-section">
   <div class="container">
    
@@ -218,6 +334,8 @@
 <script src="assets/js/odometer.min.js"></script>
 <!-- Viewport js -->
 <script src="assets/js/viewport.jquery.js"></script>
+
+<script src="assets/js/swiper-bundle.min.js"></script>
 
 <!-- Waypoints -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>

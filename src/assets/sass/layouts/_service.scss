@@ -31,72 +31,7 @@
     }
   }
 
-  .service-section{
   
-    .card_wraper{
 
-        .card_body{
-            cursor: pointer;
-            height: 380px;
-            width: 100%;
-            position: relative;
-
-            backdrop-filter: blur(5px);
-            background-color:  hsl(var( --base-component));
-            border-radius: 12px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding: 24px;
-           
-        }
-        .card-img{
-            img{
-                width: 100px;
-                padding: 12px 0px 12px 0px;
-            }
-        }
-        
-        // .card_body:hover::before {
-        //     opacity: 1;
-        //   }
-          
-        //   .card_body:hover::before {
-        //     opacity: 1;
-        //   }
-          
-        //   .card_body::before,
-        //   .card_body::after {
-        //     border-radius: inherit;
-        //     content: "";
-        //     height: 100%;
-        //     left: 0px;
-        //     opacity: 0;
-        //     position: absolute;
-        //     top: 0px;
-        //     transition: opacity 500ms;
-        //     width: 100%;
-        //   }
-          
-        //   .card_body::before {
-        //     background: radial-gradient(
-        //       800px circle at var(--mouse-x) var(--mouse-y), 
-        //       rgba(255, 0, 0, 0.06),
-        //       transparent 90%
-        //     );
-        //     z-index: 3;
-        //   }
-          
-        //   .card_body::after {  
-        //     background: radial-gradient(
-        //       600px circle at var(--mouse-x) var(--mouse-y), 
-        //       rgba(255, 0, 0, 0.4),
-        //       transparent 90%
-        //     );
-        //     z-index: 1;
-        //   }
-      }
-  }
 
  
