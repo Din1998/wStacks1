@@ -1,0 +1,17 @@
+
+.nav-tabs-box{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .coustome-tabs{
+        border: none;
+        li{
+            button{
+            margin-right: 20px;
+            }
+        }
+    
+    }
+
+}

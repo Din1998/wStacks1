@@ -1,6 +1,8 @@
+// feature card
 .card_wraper{
     .card_body{
-        height: 380px;
+      cursor: pointer;
+        height: 100%;
         width: 100%;
         position: relative;
         backdrop-filter: blur(5px);
@@ -38,6 +40,7 @@
             justify-content: center;
             align-items: center;
             p{
+              
               font-size: 16px;
               text-align: center;
               color: hsl(var( --dark));

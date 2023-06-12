@@ -1,0 +1,19 @@
+.new-product-card_wraper{
+   
+    .product-container{
+        z-index: 999;
+        display: flex;
+        gap: 24px;
+
+        .product-card-body{
+            .product-meta{
+                a{
+                    background-color: hsl(var(--base));
+                    color: hsl(var(--dark));
+                    border-radius: 8px;
+                    padding: 0px 12px;
+                }
+            }
+        }
+    }
+}

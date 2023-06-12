@@ -353,7 +353,7 @@ button {
     color: hsl(var(--base));
     border: 1px solid hsl(var(--base)) !important;
     border-radius: 8px;
-    padding: 8px 8px ;
+    padding: 4px 8px ;
     font-size: 16px;
     outline: 0;
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3); /* black with 30% opacity */
@@ -362,4 +362,22 @@ button {
         background-color: hsl(var(--base)/.09);
     }
   }
+
+  
  
+//   tap btn
+.tab-btn{
+    position: relative;
+    transition: background 400ms;
+    color: hsl(var(--base));
+    border: 1px solid hsl(var(--base)) !important;
+    border-radius: 8px;
+    padding: 4px 12px ;
+    font-size: 20px;
+    outline: 0;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3); /* black with 30% opacity */
+    cursor: pointer;
+  &:hover{
+        background-color: hsl(var(--base)/.09);
+    }
+  }
