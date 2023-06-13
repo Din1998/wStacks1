@@ -330,13 +330,13 @@ button {
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3); /* black with 30% opacity */
     cursor: pointer;
   &:hover{
-        background-color: hsl(var(--base)/.09);
+        background-color: hsl(var(--base)/.2);
     }
   }
 // btn ripple
   .ripple {
     background-position: center;
-    transition: background 0.8s;
+    transition: background 0.5s;
   }
   .ripple:hover {
     background: hsl(var(--base)/.1) radial-gradient(circle, transparent 1%, hsl(var(--base)/.3) 1%) center/15000%;
@@ -359,7 +359,7 @@ button {
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3); /* black with 30% opacity */
   cursor: pointer;
   &:hover{
-        background-color: hsl(var(--base)/.09);
+        background-color: hsl(var(--base)/.2);
     }
   }
 
@@ -372,7 +372,7 @@ button {
     color: hsl(var(--base));
     border: 1px solid hsl(var(--base)) !important;
     border-radius: 8px;
-    padding: 4px 12px ;
+    padding: 0px 0px ;
     font-size: 20px;
     outline: 0;
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3); /* black with 30% opacity */

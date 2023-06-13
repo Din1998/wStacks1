@@ -6,9 +6,25 @@
 
     .coustome-tabs{
         border: none;
+        
         li{
             button{
             margin-right: 20px;
+            }
+            .nav-link{
+                position: relative;
+                transition: background 400ms;
+                color: hsl(var(--base));
+                border: 1px solid hsl(var(--base)) !important;
+                border-radius: 8px;
+                padding: 4px 12px ;
+                font-size: 18px;
+                outline: 0;
+                box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3); /* black with 30% opacity */
+                cursor: pointer;
+                &:hover{
+                    background-color: hsl(var(--base)/.2);
+                }
             }
         }
     

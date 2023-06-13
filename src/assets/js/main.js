@@ -649,7 +649,7 @@ const swiper = new Swiper('.swiper', {
 
 document.addEventListener("mousemove",parallax);
 function parallax(e){
-  document.querySelectorAll(".animate-logo").forEach(function(move){
+  document.querySelectorAll("").forEach(function(move){
     var movingValue = move.getAttribute("data-value");
     var x = (e.clientX * movingValue) / 250;
     var y = (e.clientY * movingValue) / 250;

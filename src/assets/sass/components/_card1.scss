@@ -1,7 +1,6 @@
 // feature card
 .card_wraper{
     .card_body{
-      cursor: pointer;
         height: 100%;
         width: 100%;
         position: relative;
@@ -9,6 +8,7 @@
         background-color:  hsl(var( --base-component));
         border-radius: 8px;
         overflow: hidden;
+        border: 1px solid transparent;
        &:hover{
         border: 1px solid hsl(var( --base));
        }
