@@ -3,4 +3,13 @@
     width: 100%;
     height: 100%;
   }
+
+  .price{
+    display: flex;
+    justify-content: space-between;
+
+    .ratings-box{
+      color: hsl(var(--base));
+    }
+  }
 }
