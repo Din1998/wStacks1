@@ -17,17 +17,16 @@
     .accordion-item {
         background-color: transparent !important;
         overflow: hidden;
-        border-radius: 10px;
-        border-radius: var(--border-radius);
-        border: 1px solid hsl(var(--base)/.2);
+        border-radius: 8px;
+        border: 1px solid hsl(var(--base));
         &:not(:last-child) {
             margin-bottom:20px;
         }
     }
     .accordion-body {
-        padding: 20px;
+        padding: 8px !important;
         background-color: hsl(var(--base)/0.03);
-        color: hsl(var(--dark)/.6); 
+        color: hsl(var( --body-color)); 
         .text {
             max-width: 60%;
             @include msm-screen {
